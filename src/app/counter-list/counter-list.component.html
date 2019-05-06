@@ -1,4 +1,4 @@
 <div style="text-align:center">
   <button (click)="createCounter()" >  Create Counter </button>
 </div>
-<app-counter *ngFor="let j of mycounter" [app-counter]="j"></app-counter>
+<app-counter [ngStyle]="{display: 'inline-block'} *ngFor="let j of mycounter" [app-counter]="j"></app-counter>
